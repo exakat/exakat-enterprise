@@ -4,4 +4,4 @@ COPY exakatClient.php /usr/src/exakat/
 
 WORKDIR /usr/src/exakat
 
-ENTRYPOINT ["php", "exakatClient.php"]
+ENTRYPOINT ["php", "/usr/src/exakat/exakatClient.php"]
